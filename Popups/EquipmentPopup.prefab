@@ -121,9 +121,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closeButton: {fileID: 8603908851859994634}
   popup: {fileID: 778008465269386862}
-  _equipmentPopup: {fileID: 11400000, guid: ce58bbbcd1b3f2d488f057f5d8e4715e, type: 2}
   name: {fileID: 8368667215301565524}
   variantPrefab: {fileID: 9190843115470619759, guid: 7ea9cf0c32f4a924b965f6e7bb2123ff, type: 3}
+  ingredientPrefab: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
+  menu: {fileID: 11400000, guid: 5563ab95bc4eed143a1a9e6e3f244cab, type: 2}
+  ingredients: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
 --- !u!1 &824866881598075108
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,8 +544,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
