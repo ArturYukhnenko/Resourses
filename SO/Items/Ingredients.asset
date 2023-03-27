@@ -17,11 +17,53 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 7d40f41a0ef152842a68439c39135c2d, type: 3}
     price: 0
   - ingredientName: Butter
-    icon: {fileID: 21300000, guid: ebde4c803924f264dbc24d96ed56fef5, type: 3}
+    icon: {fileID: 21300000, guid: 618d343a6f774394397f28b38ea970d8, type: 3}
     price: 0
   - ingredientName: Coffee
     icon: {fileID: 21300000, guid: 0d59cbe126482034bbc230a552c8f855, type: 3}
     price: 0
   - ingredientName: Dough
-    icon: {fileID: 21300000, guid: 0d59cbe126482034bbc230a552c8f855, type: 3}
+    icon: {fileID: 21300000, guid: 7f4ac49975849794197571022eea99f0, type: 3}
+    price: 0
+  - ingredientName: Flour
+    icon: {fileID: 21300000, guid: 263a72d2b33a41048933cbfbbde14a4e, type: 3}
+    price: 0
+  - ingredientName: Eggs
+    icon: {fileID: 21300000, guid: d55b0c7c4251f69439505726e612e023, type: 3}
+    price: 0
+  - ingredientName: Lemon
+    icon: {fileID: 21300000, guid: b6fbbe48f5809db4fb63139077e86d2c, type: 3}
+    price: 0
+  - ingredientName: Water
+    icon: {fileID: 21300000, guid: 3128d809fc439c543b3fea5191c2daf9, type: 3}
+    price: 0
+  - ingredientName: Sugar
+    icon: {fileID: 21300000, guid: 79c2138ee721238418396bf70baacb14, type: 3}
+    price: 0
+  - ingredientName: Sour cream
+    icon: {fileID: 21300000, guid: 0dd3f677cf15ff543a2884436d87db48, type: 3}
+    price: 0
+  - ingredientName: Chocolate
+    icon: {fileID: 21300000, guid: 08d1183f6045e124798b1cb5f018adb5, type: 3}
+    price: 0
+  - ingredientName: Glaze
+    icon: {fileID: 21300000, guid: 36621338dc50fc84a9f901e65e349e12, type: 3}
+    price: 0
+  - ingredientName: Fruits
+    icon: {fileID: 21300000, guid: 1bf80181922eed042a105902e82f393d, type: 3}
+    price: 0
+  - ingredientName: Whipped cream
+    icon: {fileID: 21300000, guid: d6180324aaa6ebf4f97a14771459c95e, type: 3}
+    price: 0
+  - ingredientName: Ice cream
+    icon: {fileID: 21300000, guid: f1c5cce66582f444c933bafa46f43757, type: 3}
+    price: 0
+  - ingredientName: Jam
+    icon: {fileID: 21300000, guid: dc1080dba06862e499374d6c382c634c, type: 3}
+    price: 0
+  - ingredientName: Tea
+    icon: {fileID: 21300000, guid: 5ab60bc6fa2b9924f82706bff5b13aec, type: 3}
+    price: 0
+  - ingredientName: Cream
+    icon: {fileID: 21300000, guid: d6180324aaa6ebf4f97a14771459c95e, type: 3}
     price: 0

@@ -13,19 +13,76 @@ MonoBehaviour:
   m_Name: Menu
   m_EditorClassIdentifier: Assembly-CSharp::Menu
   dishes:
-  - dishName: pancakes
+  - dishName: Pancakes
     activated: 1
     ingredients:
-    - dough
-    - whipped cream
-    - jam
-  - dishName: croissant
+    - Dough
+    - Whipped cream
+    - Jam
+  - dishName: Croissant
+    activated: 1
+    ingredients:
+    - Dough
+    - Butter
+  - dishName: Muffin
+    activated: 1
+    ingredients:
+    - Dough
+    - Chocolate
+  - dishName: Dough
     activated: 0
     ingredients:
-    - dough
-    - butter
-  - dishName: muffin
+    - Milk
+    - Eggs
+    - Flour
+  - dishName: Whipped cream
     activated: 0
     ingredients:
-    - dough
-    - chocolate
+    - Sour cream
+    - Sugar
+  - dishName: Lemonade
+    activated: 0
+    ingredients:
+    - Lemon
+    - Water
+    - Sugar
+  - dishName: Jam
+    activated: 0
+    ingredients:
+    - Sugar
+    - Water
+    - Fruits
+  - dishName: Donut
+    activated: 0
+    ingredients:
+    - Dough
+    - Glaze
+  - dishName: Cake
+    activated: 0
+    ingredients:
+    - Dough
+    - Cream
+  - dishName: Espresso
+    activated: 0
+    ingredients:
+    - Coffee
+  - dishName: Cappuccino
+    activated: 0
+    ingredients:
+    - Coffee
+    - Milk
+  - dishName: Latte
+    activated: 0
+    ingredients:
+    - Coffee
+    - Milk
+    - Milk
+  - dishName: Tea
+    activated: 0
+    ingredients:
+    - Tea
+  - dishName: Cocoa
+    activated: 0
+    ingredients:
+    - Chocolate
+    - Milk
