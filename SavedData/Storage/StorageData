@@ -1,0 +1,14 @@
+{
+    "Keys": [
+        "Milk",
+        "Coffee",
+        "Butter"
+    ],
+    "Values": [
+        60,
+        40,
+        100
+    ],
+    "maxCapacity": 100,
+    "coins": 2000
+}
