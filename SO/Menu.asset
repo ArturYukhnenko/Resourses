@@ -25,7 +25,7 @@ MonoBehaviour:
     - Dough
     - Butter
   - dishName: Muffin
-    activated: 0
+    activated: 1
     ingredients:
     - Dough
     - Chocolate
@@ -47,42 +47,42 @@ MonoBehaviour:
     - Water
     - Sugar
   - dishName: Jam
-    activated: 1
+    activated: 0
     ingredients:
     - Sugar
     - Water
     - Fruits
   - dishName: Donut
-    activated: 1
+    activated: 0
     ingredients:
     - Dough
     - Glaze
   - dishName: Cake
-    activated: 1
+    activated: 0
     ingredients:
     - Dough
     - Cream
   - dishName: Espresso
-    activated: 1
+    activated: 0
     ingredients:
     - Coffee
   - dishName: Cappuccino
-    activated: 1
+    activated: 0
     ingredients:
     - Coffee
     - Milk
   - dishName: Latte
-    activated: 1
+    activated: 0
     ingredients:
     - Coffee
     - Milk
     - Milk
   - dishName: Tea
-    activated: 1
+    activated: 0
     ingredients:
     - Tea
   - dishName: Cocoa
-    activated: 1
+    activated: 0
     ingredients:
     - Chocolate
     - Milk
