@@ -10,18 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ce8f8d5f38a7ff4eac43ea03e708a5a, type: 3}
-  m_Name: Ingredients
-  m_EditorClassIdentifier: Assembly-CSharp:Storage:RawComponents
+  m_Name: RawComponents
+  m_EditorClassIdentifier: 
   rawComponents:
-  - ingredientName: Milk
+  - name: Milk
     icon: {fileID: 21300000, guid: 7d40f41a0ef152842a68439c39135c2d, type: 3}
-    price: 0
-  - ingredientName: Butter
+    price: 2
+  - name: Coffe
+    icon: {fileID: 21300000, guid: 0d59cbe126482034bbc230a552c8f855, type: 3}
+    price: 1
+  - name: Butter
     icon: {fileID: 21300000, guid: ebde4c803924f264dbc24d96ed56fef5, type: 3}
-    price: 0
-  - ingredientName: Coffee
-    icon: {fileID: 21300000, guid: 0d59cbe126482034bbc230a552c8f855, type: 3}
-    price: 0
-  - ingredientName: Dough
-    icon: {fileID: 21300000, guid: 0d59cbe126482034bbc230a552c8f855, type: 3}
-    price: 0
+    price: 5

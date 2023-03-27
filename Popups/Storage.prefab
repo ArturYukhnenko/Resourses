@@ -395,6 +395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellPreset: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
   placeForCells: {fileID: 7100777250043647512}
+  amountOfCells: 3
   maxCapacity: 0
   startIncome: 2000
   componentsList: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
