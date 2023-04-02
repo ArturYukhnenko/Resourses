@@ -139,9 +139,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellPreset: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
   placeForCells: {fileID: 5915322336822955081}
+  cellDefaultSprite: {fileID: 21300000, guid: e5fb01ce4ca75c7479755c43b828c13d, type: 3}
   amountOfCells: 24
-  maxCapacity: 13
-  startIncome: 10
+  storageData: {fileID: 11400000, guid: 77b76feba09543e409feebc372b6c93d, type: 2}
   componentsList: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
 --- !u!1 &824866881598075108
 GameObject:
