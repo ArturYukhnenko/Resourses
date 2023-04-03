@@ -121,8 +121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closeButton: {fileID: 8603908851859994634}
   popup: {fileID: 778008465269386862}
-  name: {fileID: 8368667215301565524}
-  variantPrefab: {fileID: 9190843115470619759, guid: 7ea9cf0c32f4a924b965f6e7bb2123ff, type: 3}
+  titlePopup: {fileID: 8368667215301565524}
+  dishPrefab: {fileID: 9190843115470619759, guid: 7ea9cf0c32f4a924b965f6e7bb2123ff, type: 3}
   ingredientPrefab: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
   menu: {fileID: 11400000, guid: 5563ab95bc4eed143a1a9e6e3f244cab, type: 2}
   ingredients: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
@@ -463,8 +463,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7133332010598331929}
-        m_TargetAssemblyTypeName: popupBehavior, Assembly-CSharp
-        m_MethodName: destroyPopup
+        m_TargetAssemblyTypeName: UI.PopupBehavior, Assembly-CSharp
+        m_MethodName: DestroyPopup
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

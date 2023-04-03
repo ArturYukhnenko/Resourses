@@ -135,10 +135,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a56f432156af3a148836755ec034c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  componentPrefab: {fileID: 9190843115470619759, guid: 43887b6c02df0ee4a96353e521060069, type: 3}
+  dishPrefab: {fileID: 9190843115470619759, guid: 43887b6c02df0ee4a96353e521060069, type: 3}
   spawner: {fileID: 8741858818814333788}
   ingredientPrefab: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
-  _menu: {fileID: 11400000, guid: 5563ab95bc4eed143a1a9e6e3f244cab, type: 2}
+  menu: {fileID: 11400000, guid: 5563ab95bc4eed143a1a9e6e3f244cab, type: 2}
   ingredients: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
 --- !u!1 &824866881598075108
 GameObject:
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 5929908098349305278}
   m_Direction: 3
   m_Value: 0
-  m_Size: 0.9937383
+  m_Size: 0.99997723
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1170,8 +1170,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4313750367618338893}
-        m_TargetAssemblyTypeName: popupBehavior, Assembly-CSharp
-        m_MethodName: destroyPopup
+        m_TargetAssemblyTypeName: UI.PopupBehavior, Assembly-CSharp
+        m_MethodName: DestroyPopup
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1215,7 +1215,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00005570027}
+  m_AnchoredPosition: {x: 0, y: 0.000053173604}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2686727248334523590
