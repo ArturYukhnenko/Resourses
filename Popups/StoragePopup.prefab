@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6314275316455575315}
   - component: {fileID: 3263488834326503404}
   - component: {fileID: 4313750367618338893}
-  - component: {fileID: -5572764053586413870}
+  - component: {fileID: 4334198779062064357}
   m_Layer: 5
   m_Name: StoragePopup
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closeButton: {fileID: 8603908851859994634}
   popup: {fileID: 778008465269386862}
---- !u!114 &-5572764053586413870
+--- !u!114 &4334198779062064357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,15 +134,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 778008465269386862}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 057b047754964b358d220f971e31380d, type: 3}
+  m_Script: {fileID: 11500000, guid: 887e460071034a869cfd18ec0190abb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cellPrefab: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
   cellsSpawner: {fileID: 5915322336822955081}
-  cellDefaultSprite: {fileID: 21300000, guid: e5fb01ce4ca75c7479755c43b828c13d, type: 3}
+  defaultStorageItemImage: {fileID: 21300000, guid: e5fb01ce4ca75c7479755c43b828c13d, type: 3}
   amountOfCells: 24
-  storageHolder: {fileID: 11400000, guid: 77b76feba09543e409feebc372b6c93d, type: 2}
-  rawComponents: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
 --- !u!1 &824866881598075108
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +339,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -5572764053586413870}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Storage.StorageController, Assembly-CSharp
         m_MethodName: TestAddItem
         m_Mode: 5
@@ -882,7 +880,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -5572764053586413870}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Storage.StorageController, Assembly-CSharp
         m_MethodName: TestAddItem
         m_Mode: 5
@@ -1016,7 +1014,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -5572764053586413870}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Storage.StorageController, Assembly-CSharp
         m_MethodName: TestAddItem
         m_Mode: 5
