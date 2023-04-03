@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellPrefab: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
   cellsSpawner: {fileID: 5915322336822955081}
-  cellDefaultSprite: {fileID: 21300000, guid: 263a72d2b33a41048933cbfbbde14a4e, type: 3}
+  cellDefaultSprite: {fileID: 21300000, guid: e5fb01ce4ca75c7479755c43b828c13d, type: 3}
   amountOfCells: 24
   storageHolder: {fileID: 11400000, guid: 77b76feba09543e409feebc372b6c93d, type: 2}
   rawComponents: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
@@ -1018,7 +1018,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: -5572764053586413870}
         m_TargetAssemblyTypeName: Storage.StorageController, Assembly-CSharp
-        m_MethodName: TestAddItem
+        m_MethodName: GetItemBasicPrice
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
