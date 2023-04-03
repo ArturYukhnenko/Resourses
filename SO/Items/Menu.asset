@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1faea567b4fec094b8bee8c6316a2b54, type: 3}
+  m_Name: Menu
+  m_EditorClassIdentifier: Assembly-CSharp::Menu
+  dishes:
+  - dishName: Pancakes
+    activated: 1
+    ingredients:
+    - Dough
+    - Whipped cream
+    - Jam
+  - dishName: Croissant
+    activated: 1
+    ingredients:
+    - Dough
+    - Butter
+  - dishName: Muffin
+    activated: 1
+    ingredients:
+    - Dough
+    - Chocolate
+  - dishName: Dough
+    activated: 0
+    ingredients:
+    - Milk
+    - Eggs
+    - Flour
+  - dishName: Whipped cream
+    activated: 0
+    ingredients:
+    - Sour cream
+    - Sugar
+  - dishName: Lemonade
+    activated: 0
+    ingredients:
+    - Lemon
+    - Water
+    - Sugar
+  - dishName: Jam
+    activated: 0
+    ingredients:
+    - Sugar
+    - Water
+    - Fruits
+  - dishName: Donut
+    activated: 0
+    ingredients:
+    - Dough
+    - Glaze
+  - dishName: Cake
+    activated: 0
+    ingredients:
+    - Dough
+    - Cream
+  - dishName: Espresso
+    activated: 0
+    ingredients:
+    - Coffee
+  - dishName: Cappuccino
+    activated: 0
+    ingredients:
+    - Coffee
+    - Milk
+  - dishName: Latte
+    activated: 0
+    ingredients:
+    - Coffee
+    - Milk
+    - Milk
+  - dishName: Tea
+    activated: 0
+    ingredients:
+    - Tea
+  - dishName: Cocoa
+    activated: 0
+    ingredients:
+    - Chocolate
+    - Milk
