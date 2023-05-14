@@ -2,11 +2,15 @@
     "Keys": [
         "Milk",
         "Coffee",
-        "Butter"
+        "Butter",
+        "Eggs",
+        "Flour"
     ],
     "Values": [
         60,
         40,
+        100,
+        100,
         100
     ],
     "maxCapacity": 100,
