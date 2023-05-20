@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6314275316455575315}
   - component: {fileID: 3263488834326503404}
   - component: {fileID: 4313750367618338893}
+  - component: {fileID: 6611418352329866499}
   m_Layer: 5
   m_Name: StoragePopup
   m_TagString: Untagged
@@ -124,6 +125,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closeButton: {fileID: 8603908851859994634}
   currentPopup: {fileID: 778008465269386862}
+--- !u!114 &6611418352329866499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778008465269386862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887e460071034a869cfd18ec0190abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellPrefab: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
+  cellsSpawner: {fileID: 5915322336822955081}
+  defaultStorageItemImage: {fileID: 21300000, guid: 3a10050503ff5274f97be7122b48e5d4, type: 3}
+  amountOfCells: 20
 --- !u!1 &824866881598075108
 GameObject:
   m_ObjectHideFlags: 0
