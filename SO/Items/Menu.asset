@@ -36,7 +36,7 @@ MonoBehaviour:
     - Dough
     - Chocolate
   - dishName: Dough
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7f4ac49975849794197571022eea99f0, type: 3}
     price: 0
     activated: 0
     ingredients:
@@ -44,7 +44,7 @@ MonoBehaviour:
     - Eggs
     - Flour
   - dishName: Whipped cream
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: d6180324aaa6ebf4f97a14771459c95e, type: 3}
     price: 0
     activated: 0
     ingredients:
