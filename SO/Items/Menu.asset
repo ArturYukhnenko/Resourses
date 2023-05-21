@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Menu
   dishes:
   - dishName: Pancakes
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 08d1183f6045e124798b1cb5f018adb5, type: 3}
     price: 0
     activated: 1
     ingredients:
@@ -22,14 +22,14 @@ MonoBehaviour:
     - Whipped cream
     - Jam
   - dishName: Croissant
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 263a72d2b33a41048933cbfbbde14a4e, type: 3}
     price: 0
     activated: 1
     ingredients:
     - Dough
     - Butter
   - dishName: Muffin
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: f1c5cce66582f444c933bafa46f43757, type: 3}
     price: 0
     activated: 1
     ingredients:
