@@ -9710,6 +9710,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6054443012584887251, guid: 506582ee834cd014aabb88c11a887f63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054443012584887251, guid: 506582ee834cd014aabb88c11a887f63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Espresso
+      objectReference: {fileID: 0}
     - target: {fileID: 6054443013932287173, guid: 506582ee834cd014aabb88c11a887f63, type: 3}
       propertyPath: m_Name
       value: Canvas

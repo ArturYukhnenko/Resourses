@@ -558,6 +558,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orderItem: {fileID: 4621628929053148059, guid: 0f914b22520468643b45e0bc0c35e804, type: 3}
   orderItemSpawner: {fileID: 147857907501528574}
-  orderTimeLeft: 5
+  orderTimeLeft: 50
   button: {fileID: 254262269984212704}
   timer: {fileID: 6092710238267360647}
