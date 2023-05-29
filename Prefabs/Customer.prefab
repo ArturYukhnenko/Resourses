@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2154492533119053402}
   m_Layer: 0
   m_Name: Customer
-  m_TagString: Untagged
+  m_TagString: Customer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2154492533119053378}
-  m_LocalRotation: {x: 0, y: -0.000005682475, z: 0, w: -1}
+  m_LocalRotation: {x: 0, y: -0.000007605769, z: 0, w: -1}
   m_LocalPosition: {x: -7.99, y: -0.5907546, z: -1.543}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -135,7 +135,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customerSpeed: 3
-  or: {fileID: 0}
+  MoveToExit: 0
+  _moveToExit: 0
   coffeeInfo: {fileID: 7988645720677182911, guid: 9ce4749115c5849149f71b38cc861179, type: 3}
   bakeryInfo: {fileID: 8133570339863409428, guid: 8f9d6fef8b80d4135b7576ab6d3de627, type: 3}
   allowOrder: 0

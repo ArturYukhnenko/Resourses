@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5173266264394323922}
   m_Layer: 0
   m_Name: Employee
-  m_TagString: Untagged
+  m_TagString: Employee
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,8 +135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd04436cc5b046ef9d047b7e9aa212a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cm: {fileID: 5173266264394323922}
   orderAccepted: 0
+  employee: {fileID: 6497966150321160926}
+  timerPass: 0
+  moveBack: 0
+  canMove: 0
+  passOrder: 0
   employeeSpeed: 3
 --- !u!114 &5173266264394323922
 MonoBehaviour:
@@ -151,7 +155,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customerSpeed: 0
-  or: {fileID: 5173266264394323928}
+  MoveToCashRegister: 0
+  MoveToFreeTable: 0
+  MoveToExit: 0
+  _moveToExit: 0
   coffeeInfo: {fileID: 0}
   bakeryInfo: {fileID: 0}
   allowOrder: 0
