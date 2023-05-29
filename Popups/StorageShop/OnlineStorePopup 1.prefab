@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6314275316455575315}
   - component: {fileID: 3263488834326503404}
   - component: {fileID: 4313750367618338893}
+  - component: {fileID: 8566903728861394464}
   m_Layer: 5
   m_Name: OnlineStorePopup 1
   m_TagString: Untagged
@@ -121,6 +122,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closeButton: {fileID: 8603908851859994634}
   currentPopup: {fileID: 778008465269386862}
+--- !u!114 &8566903728861394464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778008465269386862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41275869cd5ab2645817c7edfda0099a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopCell: {fileID: 8265827248296481099, guid: 1065bea69df6b294eabf733c86c08c3e, type: 3}
+  spawnPoint: {fileID: 5915322336822955081}
+  goods: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
+  availableItems: 100
 --- !u!1 &824866881598075108
 GameObject:
   m_ObjectHideFlags: 0
