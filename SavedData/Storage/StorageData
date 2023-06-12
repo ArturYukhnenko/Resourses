@@ -4,15 +4,23 @@
         "Coffee",
         "Butter",
         "Eggs",
-        "Flour"
+        "Flour",
+        "Ice cream",
+        "Water",
+        "Jam",
+        "Tea"
     ],
     "Values": [
         60,
         40,
         100,
         100,
-        100
+        100,
+        1,
+        1,
+        1,
+        1
     ],
     "maxCapacity": 1000,
-    "coins": 2000
+    "coins": 1944
 }
