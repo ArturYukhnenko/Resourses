@@ -16,6 +16,7 @@ MonoBehaviour:
   - dishName: Pancakes
     icon: {fileID: 21300000, guid: 938fd1a560c8f954c8af1d110fa2539f, type: 3}
     price: 0
+    instrument: Pan
     activated: 1
     ingredients:
     - Dough
@@ -24,6 +25,7 @@ MonoBehaviour:
   - dishName: Croissant
     icon: {fileID: 21300000, guid: 37c4b2df24b53b34fa898e0fbb7123eb, type: 3}
     price: 0
+    instrument: Oven
     activated: 1
     ingredients:
     - Dough
@@ -31,6 +33,7 @@ MonoBehaviour:
   - dishName: Muffin
     icon: {fileID: 21300000, guid: f1c5cce66582f444c933bafa46f43757, type: 3}
     price: 0
+    instrument: Oven
     activated: 1
     ingredients:
     - Dough
@@ -38,6 +41,7 @@ MonoBehaviour:
   - dishName: Dough
     icon: {fileID: 21300000, guid: 7f4ac49975849794197571022eea99f0, type: 3}
     price: 0
+    instrument: Mixer
     activated: 1
     ingredients:
     - Milk
@@ -46,6 +50,7 @@ MonoBehaviour:
   - dishName: Whipped cream
     icon: {fileID: 21300000, guid: d6180324aaa6ebf4f97a14771459c95e, type: 3}
     price: 0
+    instrument: Mixer
     activated: 0
     ingredients:
     - Sour cream
@@ -53,6 +58,7 @@ MonoBehaviour:
   - dishName: Lemonade
     icon: {fileID: 0}
     price: 0
+    instrument: Mixer
     activated: 0
     ingredients:
     - Lemon
@@ -61,6 +67,7 @@ MonoBehaviour:
   - dishName: Jam
     icon: {fileID: 0}
     price: 0
+    instrument: Pan
     activated: 0
     ingredients:
     - Sugar
@@ -69,6 +76,7 @@ MonoBehaviour:
   - dishName: Donut
     icon: {fileID: 0}
     price: 0
+    instrument: Oven
     activated: 0
     ingredients:
     - Dough
@@ -76,6 +84,7 @@ MonoBehaviour:
   - dishName: Cake
     icon: {fileID: 0}
     price: 0
+    instrument: Oven
     activated: 0
     ingredients:
     - Dough
@@ -83,12 +92,14 @@ MonoBehaviour:
   - dishName: Espresso
     icon: {fileID: 21300000, guid: 0d59cbe126482034bbc230a552c8f855, type: 3}
     price: 0
+    instrument: 
     activated: 1
     ingredients:
     - Coffee
   - dishName: Cappuccino
     icon: {fileID: 0}
     price: 0
+    instrument: 
     activated: 0
     ingredients:
     - Coffee
@@ -96,6 +107,7 @@ MonoBehaviour:
   - dishName: Latte
     icon: {fileID: 21300000, guid: 0d59cbe126482034bbc230a552c8f855, type: 3}
     price: 0
+    instrument: 
     activated: 0
     ingredients:
     - Coffee
@@ -104,12 +116,14 @@ MonoBehaviour:
   - dishName: Tea
     icon: {fileID: 0}
     price: 0
+    instrument: 
     activated: 0
     ingredients:
     - Tea
   - dishName: Cocoa
     icon: {fileID: 0}
     price: 0
+    instrument: 
     activated: 0
     ingredients:
     - Chocolate
