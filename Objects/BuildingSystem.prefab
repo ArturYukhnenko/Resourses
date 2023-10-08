@@ -208,7 +208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7637386814238900125}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.14721227, z: -1.3666382}
+  m_LocalPosition: {x: -10.025665, y: -0.14721227, z: -5.816635}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -313,7 +313,7 @@ Transform:
   - {fileID: 7637386814785225330}
   - {fileID: 1310782146}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7637386814300740503
 MonoBehaviour:
@@ -345,6 +345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseIndicator: {fileID: 7637386814238900125}
   cellIndicator: {fileID: 8424225024138765519}
+  _furnitureSo: {fileID: 11400000, guid: 1175f0cde83c630448ae2252e1c58088, type: 2}
   _inputManager: {fileID: 7637386814300740503}
   _grid: {fileID: 7637386814809211017}
 --- !u!1 &7637386814785225329
