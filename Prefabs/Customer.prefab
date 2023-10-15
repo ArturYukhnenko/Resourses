@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2154492533119053382}
   - component: {fileID: 2154492533119053383}
   - component: {fileID: 2154492533119053402}
+  - component: {fileID: 8833460725380030129}
   m_Layer: 0
   m_Name: Customer
   m_TagString: Customer
@@ -28,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2154492533119053378}
-  m_LocalRotation: {x: 0, y: -0.000007605769, z: 0, w: -1}
+  m_LocalRotation: {x: 0, y: -0.000009529063, z: 0, w: -1}
   m_LocalPosition: {x: -7.99, y: -0.5907546, z: -1.543}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -129,15 +130,41 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2154492533119053378}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e00b8571c393c4222b7cc00988b38120, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   customerSpeed: 3
+  CashRegister: {x: 0, y: 0, z: 0}
+  MoveToCashRegister: 0
+  FreeTable: {x: 0, y: 0, z: 0}
+  MoveToFreeTable: 0
+  Exit: {x: 0, y: 0, z: 0}
   MoveToExit: 0
-  _moveToExit: 0
   coffeeInfo: {fileID: 7988645720677182911, guid: 9ce4749115c5849149f71b38cc861179, type: 3}
   bakeryInfo: {fileID: 8133570339863409428, guid: 8f9d6fef8b80d4135b7576ab6d3de627, type: 3}
   allowOrder: 0
-  all: 0
+  x: 0
+  customer: {fileID: 0}
+  oc: {fileID: 0}
+--- !u!114 &8833460725380030129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2154492533119053378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586fb3011debd42b9bb7c9f2e2afdb2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Positions:
+  - {fileID: 967303990111267345, guid: 508fe09558d0d4a7996badd7395f24e4, type: 3}
+  - {fileID: 5335493827658432846, guid: 12808f00445cc4c8081e75231ef1eed1, type: 3}
+  - {fileID: 4026340523668660370, guid: 58223014291ff453289327815fa4a102, type: 3}
+  - {fileID: 5381090465277485128, guid: 4829d955a905b459a943b83c79150a35, type: 3}
+  - {fileID: 2976071824260886006, guid: 16eac3f62dfda41a1869fc02a35e24e0, type: 3}
+  - {fileID: 5776063420441578705, guid: ba5b9400ea07444faa2d38d0ddc256d5, type: 3}
+  ObjectSpeed: 3
