@@ -6097,6 +6097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06386d5a99ee44bb09d2391532019721, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gc: {fileID: 1618529916}
   customerPrefab: {fileID: 2154492533119053378, guid: f241992e652984c23a94e909f92fc933, type: 3}
 --- !u!4 &1480753551
 Transform:
@@ -6795,11 +6796,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Positions:
-  - {fileID: 967303990111267345, guid: 508fe09558d0d4a7996badd7395f24e4, type: 3}
-  - {fileID: 5335493827658432846, guid: 12808f00445cc4c8081e75231ef1eed1, type: 3}
   - {fileID: 4026340523668660370, guid: 58223014291ff453289327815fa4a102, type: 3}
+  - {fileID: 5335493827658432846, guid: 12808f00445cc4c8081e75231ef1eed1, type: 3}
+  - {fileID: 967303990111267345, guid: 508fe09558d0d4a7996badd7395f24e4, type: 3}
   cq: {fileID: 1618529918}
   guestList: []
+  custList: []
   pos: 0
 --- !u!4 &1618529917
 Transform:
