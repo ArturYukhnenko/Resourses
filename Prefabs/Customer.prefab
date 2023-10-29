@@ -30,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2154492533119053378}
-  m_LocalRotation: {x: -0, y: -1, z: 0, w: 0.000014293587}
+  m_LocalRotation: {x: 0, y: -0.000029636525, z: 0, w: -1}
   m_LocalPosition: {x: -7.99, y: -0.5907546, z: -1.543}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586fb3011debd42b9bb7c9f2e2afdb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gc: {fileID: 5611327407824190520}
+  gc: {fileID: 0}
   Positions:
   - {fileID: 4026340523668660370, guid: 58223014291ff453289327815fa4a102, type: 3}
   - {fileID: 5335493827658432846, guid: 12808f00445cc4c8081e75231ef1eed1, type: 3}
@@ -170,9 +170,14 @@ MonoBehaviour:
   - {fileID: 2976071824260886006, guid: 16eac3f62dfda41a1869fc02a35e24e0, type: 3}
   - {fileID: 5776063420441578705, guid: ba5b9400ea07444faa2d38d0ddc256d5, type: 3}
   ObjectSpeed: 3
-  pos3Free: 0
+  sc: {fileID: 0}
+  posExit: 0
+  posTableExit: 0
+  posTable: 0
   pos2Free: 0
   pos1Free: 0
+  pos0Free: 0
+  canMove: 0
   posi: 0
 --- !u!114 &5611327407824190520
 MonoBehaviour:
@@ -189,4 +194,6 @@ MonoBehaviour:
   Positions: []
   cq: {fileID: 8833460725380030129}
   guestList: []
+  custList: []
   pos: 0
+  amountOfCustomers: 0
