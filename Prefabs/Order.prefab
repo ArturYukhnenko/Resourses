@@ -556,6 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67be83aa6274e0c9cbef2cda9fe840d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  errorPrefab: {fileID: 778008465269386862, guid: 46aa21860ca1a494f8ff712271d28dcb, type: 3}
   orderItem: {fileID: 4621628929053148059, guid: 0f914b22520468643b45e0bc0c35e804, type: 3}
   orderItemSpawner: {fileID: 147857907501528574}
   orderTimeLeft: 50

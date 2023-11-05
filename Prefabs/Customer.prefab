@@ -30,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2154492533119053378}
-  m_LocalRotation: {x: 0, y: -0.000029636525, z: 0, w: -1}
+  m_LocalRotation: {x: 0, y: -0.00004344902, z: 0, w: -1}
   m_LocalPosition: {x: -7.99, y: -0.5907546, z: -1.543}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -166,9 +166,13 @@ MonoBehaviour:
   - {fileID: 4026340523668660370, guid: 58223014291ff453289327815fa4a102, type: 3}
   - {fileID: 5335493827658432846, guid: 12808f00445cc4c8081e75231ef1eed1, type: 3}
   - {fileID: 967303990111267345, guid: 508fe09558d0d4a7996badd7395f24e4, type: 3}
-  - {fileID: 5381090465277485128, guid: 4829d955a905b459a943b83c79150a35, type: 3}
+  - {fileID: 7321043628220018062, guid: bb865265e81254bb4adb699d9e7eb6b1, type: 3}
   - {fileID: 2976071824260886006, guid: 16eac3f62dfda41a1869fc02a35e24e0, type: 3}
   - {fileID: 5776063420441578705, guid: ba5b9400ea07444faa2d38d0ddc256d5, type: 3}
+  FreeTablePositions:
+  - {fileID: 6442723561435676458, guid: 18db2aeaa599a40a69ba84e8cd1661e1, type: 3}
+  - {fileID: 7347157907502349673, guid: 4c5dd9b8223744a7ba23a867836c839b, type: 3}
+  - {fileID: 7321043628220018062, guid: bb865265e81254bb4adb699d9e7eb6b1, type: 3}
   ObjectSpeed: 3
   sc: {fileID: 0}
   posExit: 0
@@ -178,6 +182,8 @@ MonoBehaviour:
   pos1Free: 0
   pos0Free: 0
   canMove: 0
+  oc: {fileID: 0}
+  tryToCreateOrder: 1
   posi: 0
 --- !u!114 &5611327407824190520
 MonoBehaviour:
