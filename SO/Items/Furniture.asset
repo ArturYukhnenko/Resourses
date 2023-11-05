@@ -15,7 +15,7 @@ MonoBehaviour:
   rawComponents:
   - ingredientName: Mixer
     icon: {fileID: 21300000, guid: b41a06aa9e4d40f4399000d43d639164, type: 3}
-    prefab: {fileID: 7168938742063591806, guid: b4be2b6c539906e43b3df62f120efb27, type: 3}
+    prefab: {fileID: 1222936873979803026, guid: 118083d61e2d7584abc19cd029a3b91c, type: 3}
     size: {x: 1, y: 1}
     price: 150
   - ingredientName: Table
@@ -23,3 +23,18 @@ MonoBehaviour:
     prefab: {fileID: 4289042889917739656, guid: e6cf2b740861ed34686211f1ae8f4345, type: 3}
     size: {x: 1, y: 2}
     price: 200
+  - ingredientName: CoffeeMashine
+    icon: {fileID: 21300000, guid: f8e30a85e5f699a4086585e96f7dfbb2, type: 3}
+    prefab: {fileID: 1358133513864777553, guid: 77bf88ad703b2774b9ded290f5703d9e, type: 3}
+    size: {x: 1, y: 2}
+    price: 70
+  - ingredientName: Oven
+    icon: {fileID: 21300000, guid: 1d51962dd60495b478c323ce7ca4b65a, type: 3}
+    prefab: {fileID: 325442425529688765, guid: 7e3571acf0b78dc478261002aaf942fa, type: 3}
+    size: {x: 1, y: 2}
+    price: 200
+  - ingredientName: Pan
+    icon: {fileID: 21300000, guid: f762d20a98ee5d74a868ee275668fb07, type: 3}
+    prefab: {fileID: 7442445765946215970, guid: bad79aceb185eed4f98e4bff009666b5, type: 3}
+    size: {x: 1, y: 2}
+    price: 150

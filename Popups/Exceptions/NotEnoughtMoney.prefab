@@ -12,10 +12,9 @@ GameObject:
   - component: {fileID: 6348598406942987886}
   - component: {fileID: 6314275316455575315}
   - component: {fileID: 3263488834326503404}
-  - component: {fileID: 4313750367618338893}
-  - component: {fileID: 1902416785669430713}
-  m_Layer: 5
-  m_Name: OnlineStorePopup 2
+  - component: {fileID: 7133332010598331929}
+  m_Layer: 6
+  m_Name: NotEnoughtMoney
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37,7 +36,6 @@ RectTransform:
   - {fileID: 609828635361201759}
   - {fileID: 4434337473306218750}
   - {fileID: 768166636262634755}
-  - {fileID: 684025864314030776}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -65,8 +63,8 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -938092111
+  m_SortingOrder: 122
   m_TargetDisplay: 0
 --- !u!114 &6314275316455575315
 MonoBehaviour:
@@ -108,7 +106,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4313750367618338893
+--- !u!114 &7133332010598331929
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,28 +115,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 778008465269386862}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 074917f1b4fcd6f49923bcb552cfb22b, type: 3}
+  m_Script: {fileID: 11500000, guid: 206bb059c094617439a1ee649c7258e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   closeButton: {fileID: 8603908851859994634}
   currentPopup: {fileID: 778008465269386862}
---- !u!114 &1902416785669430713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778008465269386862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf79de01e0043dd9b69d53ef1497e45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shopCell: {fileID: 8265827248296481099, guid: 1065bea69df6b294eabf733c86c08c3e, type: 3}
-  spawnPoint: {fileID: 5915322336822955081}
-  buildSystem: {fileID: 7637386814300740587, guid: 9665a6051fcba02499621392d4e9c71b, type: 3}
-  furniture: {fileID: 11400000, guid: 1175f0cde83c630448ae2252e1c58088, type: 2}
-  availableItems: 100
+  titlePopup: {fileID: 0}
+  dishPrefab: {fileID: 0}
+  ingredientPrefab: {fileID: 0}
+  menu: {fileID: 0}
+  ingredients: {fileID: 0}
 --- !u!1 &824866881598075108
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +136,7 @@ GameObject:
   - component: {fileID: 323096339745485428}
   - component: {fileID: 2382267136527217539}
   - component: {fileID: 1880461116885593545}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.9019608}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.78039217}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -226,7 +212,7 @@ GameObject:
   - component: {fileID: 609828635361201759}
   - component: {fileID: 5028602015758117324}
   - component: {fileID: 4469404420757671949}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5176, y: 0.1418}
-  m_SizeDelta: {x: 1769.543, y: 976.7151}
+  m_AnchoredPosition: {x: -4.5129, y: -74.78609}
+  m_SizeDelta: {x: 703.082, y: 353.9947}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5028602015758117324
 CanvasRenderer:
@@ -291,67 +277,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &5915322336822955081
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 684025864314030776}
-  - component: {fileID: 5932243469538336725}
-  m_Layer: 0
-  m_Name: menuVariants
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &684025864314030776
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5915322336822955081}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 270.8484}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8482595601268661441}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.9111, y: -68.67154}
-  m_SizeDelta: {x: 1689.7915, y: 757.347}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5932243469538336725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5915322336822955081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 1
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 200, y: 200}
-  m_Spacing: {x: 0, y: 0}
-  m_Constraint: 0
-  m_ConstraintCount: 2
 --- !u!1 &8603908851859994634
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +289,7 @@ GameObject:
   - component: {fileID: 6411815868170510322}
   - component: {fileID: 6993133216726367331}
   - component: {fileID: 272648040186140662}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +313,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 816.516, y: 415.2849}
+  m_AnchoredPosition: {x: 284, y: 33}
   m_SizeDelta: {x: 96.9682, y: 89.4302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6411815868170510322
@@ -473,7 +398,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4313750367618338893}
+      - m_Target: {fileID: 7133332010598331929}
         m_TargetAssemblyTypeName: UI.PopupBehavior, Assembly-CSharp
         m_MethodName: DestroyPopup
         m_Mode: 1
@@ -496,7 +421,7 @@ GameObject:
   - component: {fileID: 768166636262634755}
   - component: {fileID: 6704985753649392955}
   - component: {fileID: 8368667215301565524}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: txt_title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,8 +445,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: 370}
-  m_SizeDelta: {x: 1011.2831, y: 100}
+  m_AnchoredPosition: {x: -1.2306, y: -74.33674}
+  m_SizeDelta: {x: 464.1936, y: 292.7468}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6704985753649392955
 CanvasRenderer:
@@ -551,9 +476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Online Shop
-
-'
+  m_text: Not enought money
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
