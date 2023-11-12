@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 2154492533119053383}
   - component: {fileID: 2154492533119053402}
   - component: {fileID: 8833460725380030129}
-  - component: {fileID: 5611327407824190520}
   m_Layer: 0
   m_Name: Customer
   m_TagString: Customer
@@ -30,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2154492533119053378}
-  m_LocalRotation: {x: 0, y: -0.00004484775, z: 0, w: -1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.000058791342}
   m_LocalPosition: {x: -7.99, y: -0.5907546, z: -1.543}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -175,37 +174,7 @@ MonoBehaviour:
   - {fileID: 7321043628220018062, guid: bb865265e81254bb4adb699d9e7eb6b1, type: 3}
   ObjectSpeed: 3
   sc: {fileID: 0}
-  posExit: 0
-  posTableExit: 0
-  posTable: 0
-  pos2Free: 0
-  pos1Free: 0
-  pos0Free: 0
   canMove: 0
   oc: {fileID: 0}
   tryToCreateOrder: 1
   posi: 0
---- !u!114 &5611327407824190520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2154492533119053378}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93de00492cd2a4e3e850b6ce300c9456, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Positions:
-  - {fileID: 4026340523668660370, guid: 58223014291ff453289327815fa4a102, type: 3}
-  - {fileID: 5335493827658432846, guid: 12808f00445cc4c8081e75231ef1eed1, type: 3}
-  - {fileID: 967303990111267345, guid: 508fe09558d0d4a7996badd7395f24e4, type: 3}
-  - {fileID: 5381090465277485128, guid: 4829d955a905b459a943b83c79150a35, type: 3}
-  - {fileID: 2976071824260886006, guid: 16eac3f62dfda41a1869fc02a35e24e0, type: 3}
-  - {fileID: 5776063420441578705, guid: ba5b9400ea07444faa2d38d0ddc256d5, type: 3}
-  cq: {fileID: 8833460725380030129}
-  guestList: []
-  custList: []
-  pos: 0
-  amountOfCustomers: 0
