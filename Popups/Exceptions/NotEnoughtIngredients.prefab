@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6348598406942987886}
   - component: {fileID: 6314275316455575315}
   - component: {fileID: 3263488834326503404}
-  - component: {fileID: 7133332010598331929}
+  - component: {fileID: 3251705994770529154}
   m_Layer: 6
   m_Name: NotEnoughtIngredients
   m_TagString: Untagged
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &7133332010598331929
+--- !u!114 &3251705994770529154
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,16 +115,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 778008465269386862}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 206bb059c094617439a1ee649c7258e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 074917f1b4fcd6f49923bcb552cfb22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   closeButton: {fileID: 8603908851859994634}
   currentPopup: {fileID: 778008465269386862}
-  titlePopup: {fileID: 0}
-  dishPrefab: {fileID: 0}
-  ingredientPrefab: {fileID: 0}
-  menu: {fileID: 0}
-  ingredients: {fileID: 0}
 --- !u!1 &824866881598075108
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +393,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7133332010598331929}
+      - m_Target: {fileID: 3251705994770529154}
         m_TargetAssemblyTypeName: UI.PopupBehavior, Assembly-CSharp
         m_MethodName: DestroyPopup
         m_Mode: 1

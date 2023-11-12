@@ -211,7 +211,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-6144
+  m_Name: pb_Mesh-358870
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -376,7 +376,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-5752
+  m_Name: pb_Mesh-359676
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1036,7 +1036,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29460
+  m_Name: pb_Mesh119808
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1890,7 +1890,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-5484
+  m_Name: pb_Mesh-359818
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2803,7 +2803,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968966265}
-  m_Mesh: {fileID: 1129631825}
+  m_Mesh: {fileID: 1356138959}
 --- !u!23 &968966269
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4312,7 +4312,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29428
+  m_Name: pb_Mesh119776
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -6115,6 +6115,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4754991064058568644, guid: a3c7cd254e68150439eea6ec8fc7625b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 334.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754991064058568644, guid: a3c7cd254e68150439eea6ec8fc7625b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 15.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007912702871335250, guid: a3c7cd254e68150439eea6ec8fc7625b, type: 3}
+      propertyPath: m_text
+      value: Change to Day Mode
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007912702871335250, guid: a3c7cd254e68150439eea6ec8fc7625b, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a3c7cd254e68150439eea6ec8fc7625b, type: 3}
@@ -6281,6 +6297,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1709836565}
+    - target: {fileID: 4445071951505483858, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
+      propertyPath: m_text
+      value: Remaining time to night mode
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445071951505483858, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
+      propertyPath: m_fontSize
+      value: 56.05
+      objectReference: {fileID: 0}
     - target: {fileID: 7361348303382265527, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -6308,6 +6332,18 @@ PrefabInstance:
     - target: {fileID: 7361348303382265527, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676407640865991795, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 379.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676407640865991795, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676407640865991795, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 14.300003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
