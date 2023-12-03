@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 2154492533119053383}
   - component: {fileID: 2154492533119053402}
   - component: {fileID: 8833460725380030129}
+  - component: {fileID: 8112518207172086796}
+  - component: {fileID: -7366771375809696755}
   m_Layer: 0
   m_Name: Customer
   m_TagString: Customer
@@ -160,10 +162,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586fb3011debd42b9bb7c9f2e2afdb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gc: {fileID: 0}
+  gc: {fileID: -7366771375809696755}
   ObjectSpeed: 3
-  sc: {fileID: 0}
+  sc: {fileID: 8112518207172086796}
   canMove: 0
   oc: {fileID: 0}
   tryToCreateOrder: 1
   posi: 0
+--- !u!114 &8112518207172086796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2154492533119053378}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06386d5a99ee44bb09d2391532019721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gc: {fileID: -7366771375809696755}
+  sc: {fileID: 8112518207172086796}
+  cq: {fileID: 0}
+  customerPrefab: {fileID: 0}
+  currentAmountOfCustomers: 0
+--- !u!114 &-7366771375809696755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2154492533119053378}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93de00492cd2a4e3e850b6ce300c9456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QueuePositions: []
+  cq: {fileID: 0}
+  sc: {fileID: 0}
+  guestList: []
+  custList: []
+  pos: 0
+  amountOfCustomers: 0
+  posExit: 0
+  posTable3: 0
+  posTable2: 0
+  posTable1: 0
+  pos2Free: 0
+  pos1Free: 0
+  pos0Free: 0
+  tryToCreateOrder: 1
+  oc: {fileID: 0}
+  moveToNextTable: 0
+  moveToExit: 0
