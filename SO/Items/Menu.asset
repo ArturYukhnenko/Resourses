@@ -18,6 +18,7 @@ MonoBehaviour:
     price: 0
     instrument: Pan
     activated: 1
+    isIngredient: 0
     ingredients:
     - Dough
     - Whipped cream
@@ -27,6 +28,7 @@ MonoBehaviour:
     price: 0
     instrument: Oven
     activated: 1
+    isIngredient: 0
     ingredients:
     - Dough
     - Butter
@@ -35,6 +37,7 @@ MonoBehaviour:
     price: 0
     instrument: Oven
     activated: 1
+    isIngredient: 0
     ingredients:
     - Dough
     - Chocolate
@@ -43,6 +46,7 @@ MonoBehaviour:
     price: 0
     instrument: Mixer
     activated: 1
+    isIngredient: 1
     ingredients:
     - Milk
     - Eggs
@@ -52,6 +56,7 @@ MonoBehaviour:
     price: 0
     instrument: Mixer
     activated: 0
+    isIngredient: 1
     ingredients:
     - Sour cream
     - Sugar
@@ -60,6 +65,7 @@ MonoBehaviour:
     price: 0
     instrument: Mixer
     activated: 0
+    isIngredient: 0
     ingredients:
     - Lemon
     - Water
@@ -69,6 +75,7 @@ MonoBehaviour:
     price: 0
     instrument: Pan
     activated: 0
+    isIngredient: 1
     ingredients:
     - Sugar
     - Water
@@ -78,6 +85,7 @@ MonoBehaviour:
     price: 0
     instrument: Oven
     activated: 0
+    isIngredient: 0
     ingredients:
     - Dough
     - Glaze
@@ -86,6 +94,7 @@ MonoBehaviour:
     price: 0
     instrument: Oven
     activated: 0
+    isIngredient: 0
     ingredients:
     - Dough
     - Cream
@@ -94,6 +103,7 @@ MonoBehaviour:
     price: 200
     instrument: 
     activated: 1
+    isIngredient: 0
     ingredients:
     - Coffee
   - dishName: Cappuccino
@@ -101,6 +111,7 @@ MonoBehaviour:
     price: 0
     instrument: 
     activated: 1
+    isIngredient: 0
     ingredients:
     - Coffee
     - Milk
@@ -109,6 +120,7 @@ MonoBehaviour:
     price: 0
     instrument: 
     activated: 1
+    isIngredient: 0
     ingredients:
     - Coffee
     - Milk
@@ -118,6 +130,7 @@ MonoBehaviour:
     price: 0
     instrument: 
     activated: 1
+    isIngredient: 0
     ingredients:
     - Tea
   - dishName: Cocoa
@@ -125,6 +138,7 @@ MonoBehaviour:
     price: 0
     instrument: 
     activated: 1
+    isIngredient: 0
     ingredients:
     - Chocolate
     - Milk
