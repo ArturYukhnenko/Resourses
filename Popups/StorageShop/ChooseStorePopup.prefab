@@ -122,7 +122,7 @@ MonoBehaviour:
   closeButton: {fileID: 8603908851859994634}
   currentPopup: {fileID: 778008465269386862}
   onlineShoppingPopup: {fileID: 778008465269386862, guid: c9bc5468ec373ba438d5a6e61fc7716d, type: 3}
-  furnitureShoppingPopup: {fileID: 778008465269386862, guid: 62ea4c6e9f9610b43aade9ffde1075d6, type: 3}
+  furnitureShoppingPopup: {fileID: 787994794039402756, guid: 8f877ddd65aff1b45b47a6905d158e04, type: 3}
 --- !u!1 &792451913843450605
 GameObject:
   m_ObjectHideFlags: 0
