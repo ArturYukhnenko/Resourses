@@ -137,7 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dishPrefab: {fileID: 9190843115470619759, guid: 43887b6c02df0ee4a96353e521060069, type: 3}
   spawner: {fileID: 8741858818814333788}
-  ingredientPrefab: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
+  ingredientPrefab: {fileID: 8265827248296481099, guid: 0e9a2af31cdd25544a0db3f9e64b8ae0, type: 3}
   menu: {fileID: 11400000, guid: 5563ab95bc4eed143a1a9e6e3f244cab, type: 2}
   ingredients: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
 --- !u!1 &824866881598075108
