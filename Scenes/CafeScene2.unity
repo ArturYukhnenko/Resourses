@@ -747,6 +747,10 @@ MonoBehaviour:
   dayLightSpot: {fileID: 1343594434}
   nightLightSpot: {fileID: 205898183}
   pausePopup: {fileID: 1884043232}
+  _roomGenerator: {fileID: 1709836565}
+  menu: {fileID: 11400000, guid: 5563ab95bc4eed143a1a9e6e3f244cab, type: 2}
+  dishPrestige: 0.01
+  furniturePrestige: 0.02
   money: {fileID: 1071653727}
 --- !u!114 &467075399
 MonoBehaviour:
@@ -3052,6 +3056,8 @@ MonoBehaviour:
   wallPrefab: {fileID: 92783497906779823, guid: a9d8e022c51c41342a9f3f6612423f67, type: 3}
   floorPrefab: {fileID: 188598718}
   _furnitureSo: {fileID: 11400000, guid: 1175f0cde83c630448ae2252e1c58088, type: 2}
+  xWallsAdding: []
+  yWallsAdding: []
 --- !u!1001 &1749513719
 PrefabInstance:
   m_ObjectHideFlags: 0
