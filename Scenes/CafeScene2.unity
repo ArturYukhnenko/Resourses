@@ -681,6 +681,11 @@ Transform:
   m_Father: {fileID: 1709836564}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &466756550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 92783497906779823, guid: a9d8e022c51c41342a9f3f6612423f67, type: 3}
+  m_PrefabInstance: {fileID: 810994157}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &467075395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1996,6 +2001,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2217961118962860552, guid: a9d8e022c51c41342a9f3f6612423f67, type: 3}
   m_PrefabInstance: {fileID: 344530847}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1010306689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 92783497906779823, guid: a9d8e022c51c41342a9f3f6612423f67, type: 3}
+  m_PrefabInstance: {fileID: 1749513719}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1023503871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3325925981190638707, guid: a3c7cd254e68150439eea6ec8fc7625b, type: 3}
@@ -2640,7 +2650,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 5912152364366200810}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -3056,8 +3066,16 @@ MonoBehaviour:
   wallPrefab: {fileID: 92783497906779823, guid: a9d8e022c51c41342a9f3f6612423f67, type: 3}
   floorPrefab: {fileID: 188598718}
   _furnitureSo: {fileID: 11400000, guid: 1175f0cde83c630448ae2252e1c58088, type: 2}
-  xWallsAdding: []
-  yWallsAdding: []
+  xWallsAdding:
+  - {fileID: 466756550}
+  - {fileID: 1010306689}
+  - {fileID: 0}
+  - {fileID: 0}
+  yWallsAdding:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1001 &1749513719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4197,6 +4215,10 @@ PrefabInstance:
     - target: {fileID: 4445071951505483858, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
       propertyPath: m_fontSize
       value: 56.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7361348303382265527, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7361348303382265527, guid: 28d573ca85f7fda46a9b85eb8e62117c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
