@@ -17,7 +17,7 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 902061f3f3faeb242af53596ed1be807, type: 3}
     price: 0
     instrument: Pan
-    activated: 1
+    activated: 0
     isIngredient: 0
     ingredients:
     - Dough
@@ -27,7 +27,7 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 5f05322e73532d34983e1a8e9345cad8, type: 3}
     price: 0
     instrument: Oven
-    activated: 1
+    activated: 0
     isIngredient: 0
     ingredients:
     - Dough
@@ -100,9 +100,9 @@ MonoBehaviour:
     - Cream
   - dishName: Espresso
     icon: {fileID: 21300000, guid: 4b005aa9a45098446907664b34a5e4f8, type: 3}
-    price: 200
+    price: 10
     instrument: CoffeeMashine
-    activated: 0
+    activated: 1
     isIngredient: 0
     ingredients:
     - Coffee
