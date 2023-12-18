@@ -447,7 +447,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0024414062, y: 311.40125}
-  m_SizeDelta: {x: 1920, y: 141.3368}
+  m_SizeDelta: {x: 1920, y: 142}
   m_Pivot: {x: 0.5, y: 0.99999976}
 --- !u!114 &6321614193084021556
 MonoBehaviour:
@@ -483,6 +483,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 4269228679292362397}
   image: {fileID: 527932472685541583}
-  ingredientPrefab: {fileID: 8265827248296481099, guid: ab78f744ed5ceff4dbf209754191438d, type: 3}
   toggle: {fileID: 0}
   ingredientsSpawner: {fileID: 1869022776683025570}

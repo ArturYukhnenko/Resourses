@@ -140,6 +140,7 @@ MonoBehaviour:
   ingredientPrefab: {fileID: 8265827248296481099, guid: 0e9a2af31cdd25544a0db3f9e64b8ae0, type: 3}
   menu: {fileID: 11400000, guid: 5563ab95bc4eed143a1a9e6e3f244cab, type: 2}
   ingredients: {fileID: 11400000, guid: 1fc72f39b47fe8041885c24a8b6fc622, type: 2}
+  contentArea: {fileID: 2342920262259498447}
 --- !u!1 &824866881598075108
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +316,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 100
   m_Viewport: {fileID: 6710974879852569152}
   m_HorizontalScrollbar: {fileID: 178299067594313392}
   m_VerticalScrollbar: {fileID: 4477661040369888504}
@@ -523,8 +524,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5028754476488094711}
   m_HandleRect: {fileID: 5929908098349305278}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.23072046
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1216,7 +1217,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.000019252762}
-  m_SizeDelta: {x: 0, y: 3229.395}
+  m_SizeDelta: {x: 0, y: 160}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3868384075809660436
 MonoBehaviour:
