@@ -167,6 +167,7 @@ MonoBehaviour:
   gc: {fileID: -7366771375809696755}
   ObjectSpeed: 3
   sc: {fileID: 8112518207172086796}
+  _animator: {fileID: 2656273440540407219}
   canMove: 0
   oc: {fileID: 0}
   orderNew: 0
@@ -294,5 +295,10 @@ PrefabInstance:
 --- !u!4 &2546297285474603736 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1622848887189202388, guid: 5cc2a6070a89cdb418081ba55bc5fb2a, type: 3}
+  m_PrefabInstance: {fileID: 3878663147335038732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2656273440540407219 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1229268345010422463, guid: 5cc2a6070a89cdb418081ba55bc5fb2a, type: 3}
   m_PrefabInstance: {fileID: 3878663147335038732}
   m_PrefabAsset: {fileID: 0}
