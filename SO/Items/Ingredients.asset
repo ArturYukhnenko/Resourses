@@ -61,7 +61,7 @@ MonoBehaviour:
   - ingredientName: Jam
     icon: {fileID: 21300000, guid: 4e6dc0b67d5f8ac40a55719f295d8ff4, type: 3}
     price: 16
-  - ingredientName: Tea
+  - ingredientName: TeaBags
     icon: {fileID: 21300000, guid: 761f0adf2f4ffa544874cda3b1017cd4, type: 3}
     price: 17
   - ingredientName: Cream
